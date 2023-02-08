@@ -20,6 +20,7 @@ body {
 
 .header {
     display: flex;
+    justify-content: space-between;
 }
 
 /* Title Efect */
@@ -218,10 +219,12 @@ hr {
 
 /* IMG USERS */
 .user_img_container {
+    justify-content: center;
     display: flex;
     gap: 300px;
     margin-left: 250px;
     margin-right: 266px;
+    margin-bottom: 85px;
 }
 
 .user_img_cards {
@@ -252,8 +255,7 @@ form {
     color: #edebeb;
     box-shadow: -1px 4px 15px 10px rgb(193, 193, 193);
     text-align: center;
-    margin-right: 20px;
-    margin-left: 20px;
+
     background-color: rgb(44 71 70 / 94%);
     height: auto;
 }
@@ -305,7 +307,7 @@ form {
     background-color: bisque;
     border: none;
     width: -webkit-fill-available;
-    display: block;
+    display: inline-flex;
     transition: all 0.3s;
 
 }
@@ -327,5 +329,106 @@ form {
 .input_flex {
     gap: 95px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.agree_text {
+    width: auto;
+    font-family: 'Sorts Mill Goudy', serif;
+    padding-bottom: 40px;
+    font-size: 18px;
+    margin-right: 25%;
+    margin-left: 25%;
+    text-align: left;
+}
+
+.agree_input {
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+button:hover {
+    box-shadow: 0px 0px 23px;
+    cursor: pointer;
+    background-color: bisque;
+}
+
+button {
+    margin: 15px;
+
+    font-family: 'Sorts Mill Goudy', serif;
+    height: 35px;
+    width: 210px;
+    font-size: 16px;
+}
+
+footer {
+    display: flex;
+    height: auto;
+    background-color: white;
+}
+
+section {
+
+    width: fit-content;
+    height: auto;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+/* dental clinic contact footer */
+.line {
+    margin-bottom: 40px;
+    width: 60px;
+    border: 3px solid #2d722d;
+    border-radius: 5px;
+}
+
+h4 {
+    font-size: 21px;
+    margin-bottom: 14px;
+}
+
+.footer_ul {
+    gap: 60px;
+    display: grid;
+    font-size: 20px;
+}
+
+.footer_li {
+    display: flex;
+}
+
+p {
+    margin-left: 50px;
+}
+
+/* working time */
+
+tbody {
+    line-height: 44px;
+}
+
+td {
+    padding-right: 60px;
+}
+
+/* linkfooter */
+.a_footer {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.a_footer:hover {
+    color: #2d722d;
+}
+
+.section3 {
+    line-height: 2;
+    font-size: 20px;
 }
