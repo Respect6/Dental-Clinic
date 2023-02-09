@@ -49,12 +49,12 @@ h1 {
 h1,
 span {
     display: block;
-    animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+    animation: reveal 2.5s cubic-bezier(0.43, 0.41, 0.23, 1.01) 0.5s
 }
 
 @keyframes reveal {
     0% {
-        transform: translate(50%, 50%);
+        transform: translate(60%, 120%);
     }
 
     100% {
@@ -376,7 +376,7 @@ section {
     width: fit-content;
     height: auto;
     padding-top: 5%;
-    padding-left: 10%;
+    padding-left: 13%;
     padding-bottom: 5%;
 }
 
@@ -394,7 +394,7 @@ h4 {
 }
 
 .footer_ul {
-    gap: 60px;
+    gap: 50px;
     display: grid;
     font-size: 20px;
 }
