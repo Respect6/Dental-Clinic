@@ -11,7 +11,7 @@
 body {
     margin: 0px;
     height: 100%;
-    background-image: url("http://localhost:8888/www/GitHub/Projects/photo/tooth2.jpeg");
+    background-image: url("../photo/tooth2.jpeg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
